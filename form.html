@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>My Forms</title>
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <form action="action_page.php" method="POST">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+        </div>
+        <br>
+        <div>
+             <label for="DOB">Date of Birth</label>
+           <input type="date" id="DOB" date="date" required>
+        </div>
+        <br>
+        <div>
+            <label for="Gender">Gender</label>
+            <select>
+                <option>Male</option>
+                <option>FeMale</option>
+                <option>Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="Address">Address:</label>
+            <input type="number" id="Address" name="name" placeholder="00200">
+        </div>
+        <br>
+        <div>
+            <label for="Telephone">phone:</label>
+            <input type="tel" id="Telephone" name="Telephone" placeholder="0717-350-736">
+        </div>
+        <br>
+        <div>
+            <label for="email">email:</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+        </div>
+        <br>
+        <div>
+            <label for="Course">Course</label>
+            <input type="text" id="Course" name="Course" placeholder="Software Engineering">
+        </div>
+        <br>
+        <centre>
+            <div>
+                <input type="button" value="Register" id="submit">
+            </div>
+            <br>
+
+            <div>
+                <input type="button" value="Cancel" id="reset">
+            </div>
+        </centre>
+
+
+    </form>
+</body>
+</html>
